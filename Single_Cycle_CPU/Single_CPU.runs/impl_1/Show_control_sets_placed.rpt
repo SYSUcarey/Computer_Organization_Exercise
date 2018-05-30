@@ -1,0 +1,123 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.2 (win64) Build 932637 Wed Jun 11 13:30:22 MDT 2014
+| Date         : Tue May 29 12:41:17 2018
+| Host         :  running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Show_control_sets_placed.rpt
+| Design       : Show
+| Device       : xc7a35t
+-----------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    70 |
+| Minimum Number of register sites lost to control set restrictions |    27 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              32 |           18 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              70 |           19 |
+| Yes          | No                    | No                     |             488 |          289 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               7 |            3 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------------------------------+--------------------------------------+-------------------------------------+------------------+----------------+
+|             Clock Signal             |             Enable Signal            |           Set/Reset Signal          | Slice Load Count | Bel Load Count |
++--------------------------------------+--------------------------------------+-------------------------------------+------------------+----------------+
+|  div/clk                             |                                      |                                     |                1 |              2 |
+|  nolabel_line83/myControlUnit/O52[0] |                                      |                                     |                2 |              7 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/E[0]    | nolabel_line83/myPC/n_0_Addr[7]_i_1 |                3 |              7 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O184[0] |                                     |                5 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O182[0] |                                     |                4 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O181[0] |                                     |                4 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O187[0] |                                     |                4 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O186[0] |                                     |                6 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O180[0] |                                     |                2 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O179[0] |                                     |                7 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O178[0] |                                     |                6 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O177[0] |                                     |                4 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O170[0] |                                     |                5 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O166[0] |                                     |                6 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O165[0] |                                     |                5 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O164[0] |                                     |                5 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O163[0] |                                     |                4 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O162[0] |                                     |                4 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O161[0] |                                     |                4 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O160[0] |                                     |                4 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O159[0] |                                     |                4 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O156[0] |                                     |                3 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O155[0] |                                     |                4 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O154[0] |                                     |                4 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O153[0] |                                     |                5 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O152[0] |                                     |                6 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O151[0] |                                     |                4 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O149[0] |                                     |                6 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O148[0] |                                     |                3 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O147[0] |                                     |                4 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O100[0] |                                     |                7 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O101[0] |                                     |                5 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O105[0] |                                     |                5 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O109[0] |                                     |                7 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O117[0] |                                     |                3 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O118[0] |                                     |                5 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O119[0] |                                     |                5 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O120[0] |                                     |                4 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O121[0] |                                     |                6 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O122[0] |                                     |                5 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O129[0] |                                     |                4 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O130[0] |                                     |                6 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O131[0] |                                     |                5 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O132[0] |                                     |                6 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O133[0] |                                     |                4 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O134[0] |                                     |                4 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O135[0] |                                     |                2 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O136[0] |                                     |                3 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O138[0] |                                     |                5 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O139[0] |                                     |                6 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O140[0] |                                     |                4 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O141[0] |                                     |                4 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O142[0] |                                     |                3 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O198[0] |                                     |                6 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O199[0] |                                     |                4 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O203[0] |                                     |                7 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O91[0]  |                                     |                6 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O92[0]  |                                     |                3 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O93[0]  |                                     |                6 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O94[0]  |                                     |                6 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O96[0]  |                                     |                5 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O97[0]  |                                     |                4 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O185[0] |                                     |                6 |              8 |
+| ~CLK_BUFG                            | nolabel_line83/myControlUnit/O183[0] |                                     |                6 |              8 |
+|  CLK2_IBUF_BUFG                      |                                      |                                     |                7 |             10 |
+|  nolabel_line83/myPC/O90             |                                      |                                     |                8 |             13 |
+|  CLK2_IBUF_BUFG                      |                                      | deb/clear                           |                6 |             22 |
+|  CLK2_IBUF_BUFG                      |                                      | CLK1_IBUF                           |                6 |             22 |
+|  CLK2_IBUF_BUFG                      |                                      | div/n_0_counter[0]_i_1              |                7 |             26 |
+| ~CLK_BUFG                            | nolabel_line83/myPC/p_0_in           |                                     |               12 |             96 |
++--------------------------------------+--------------------------------------+-------------------------------------+------------------+----------------+
+
+

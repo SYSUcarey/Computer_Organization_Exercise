@@ -1,0 +1,606 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:30:22 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Tue May 29 11:26:17 2018
+# Process ID: 4372
+# Log file: F:/VivadoWork/Single_CPU/Single_CPU.runs/synth_1/Show.vds
+# Journal file: F:/VivadoWork/Single_CPU/Single_CPU.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Show.tcl
+# set_param gui.test TreeTableDev
+# set_param xicom.use_bs_reader 1
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# set_msg_config -id {Labtools 27-147} -limit 4294967295
+# create_project -in_memory -part xc7a35tcpg236-1
+# set_property target_language Verilog [current_project]
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_property default_lib xil_defaultlib [current_project]
+# read_verilog -library xil_defaultlib {
+#   F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ROM.v
+#   F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/RegisterFile.v
+#   F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/PCAddImm.v
+#   F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/PCAddFour.v
+#   F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/PC.v
+#   F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/NextPCSelect.v
+#   F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/Extend.v
+#   F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/DataSelect_5_bit.v
+#   F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/DataSelect_32_bit.v
+#   F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/DataSelectForALU.v
+#   F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/DataMemory.v
+#   F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ControlUnit.v
+#   F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ALU.v
+#   F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/SingleCPU.v
+#   F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/SegLED.v
+#   F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/Display_seg.v
+#   F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/DebKey.v
+#   F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/counter4.v
+#   F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/clock_div.v
+#   F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/Show.v
+# }
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ROM.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/RegisterFile.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/PCAddImm.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/PCAddFour.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/PC.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/NextPCSelect.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/Extend.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/DataSelect_5_bit.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/DataSelect_32_bit.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/DataSelectForALU.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/DataMemory.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ControlUnit.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ALU.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/SingleCPU.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/SegLED.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/Display_seg.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/DebKey.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/counter4.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/clock_div.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/Show.v]
+# read_xdc F:/VivadoWork/Single_CPU/Single_CPU.srcs/constrs_1/new/Single_CPU.xdc
+# set_property used_in_implementation false [get_files F:/VivadoWork/Single_CPU/Single_CPU.srcs/constrs_1/new/Single_CPU.xdc]
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir F:/VivadoWork/Single_CPU/Single_CPU.cache/wt [current_project]
+# set_property parent.project_dir F:/VivadoWork/Single_CPU [current_project]
+# catch { write_hwdef -file Show.hwdef }
+INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
+# synth_design -top Show -part xc7a35tcpg236-1
+Command: synth_design -top Show -part xc7a35tcpg236-1
+
+Starting synthesis...
+
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+WARNING: [Synth 8-1849] concatenation with unsized literal; will interpret as 32 bits [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/DataSelectForALU.v:35]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 234.305 ; gain = 108.070
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Show' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/Show.v:23]
+INFO: [Synth 8-638] synthesizing module 'DebKey' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/DebKey.v:23]
+	Parameter SAMPLE_TIME bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'DebKey' (1#1) [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/DebKey.v:23]
+WARNING: [Synth 8-387] label required on module instance [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/Show.v:83]
+INFO: [Synth 8-638] synthesizing module 'SingleCPU' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/SingleCPU.v:23]
+INFO: [Synth 8-638] synthesizing module 'PC' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/PC.v:23]
+INFO: [Synth 8-256] done synthesizing module 'PC' (2#1) [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/PC.v:23]
+INFO: [Synth 8-638] synthesizing module 'PCAddFour' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/PCAddFour.v:23]
+INFO: [Synth 8-256] done synthesizing module 'PCAddFour' (3#1) [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/PCAddFour.v:23]
+INFO: [Synth 8-638] synthesizing module 'ROM' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ROM.v:23]
+INFO: [Synth 8-3876] $readmem data file 'F:/VivadoWork/Single_CPU/rom_data.txt' is read successfully [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ROM.v:29]
+INFO: [Synth 8-256] done synthesizing module 'ROM' (4#1) [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ROM.v:23]
+INFO: [Synth 8-638] synthesizing module 'ControlUnit' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ControlUnit.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ControlUnit.v:55]
+INFO: [Synth 8-256] done synthesizing module 'ControlUnit' (5#1) [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ControlUnit.v:23]
+INFO: [Synth 8-638] synthesizing module 'DataSelect_5_bit' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/DataSelect_5_bit.v:23]
+INFO: [Synth 8-256] done synthesizing module 'DataSelect_5_bit' (6#1) [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/DataSelect_5_bit.v:23]
+INFO: [Synth 8-638] synthesizing module 'RegisterFile' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/RegisterFile.v:23]
+INFO: [Synth 8-256] done synthesizing module 'RegisterFile' (7#1) [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/RegisterFile.v:23]
+INFO: [Synth 8-638] synthesizing module 'Extend' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/Extend.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Extend' (8#1) [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/Extend.v:23]
+INFO: [Synth 8-638] synthesizing module 'DataSelectForALU' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/DataSelectForALU.v:23]
+INFO: [Synth 8-256] done synthesizing module 'DataSelectForALU' (9#1) [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/DataSelectForALU.v:23]
+INFO: [Synth 8-638] synthesizing module 'ALU' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-226] default block is never used [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ALU.v:32]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (10#1) [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-638] synthesizing module 'DataMemory' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/DataMemory.v:23]
+WARNING: [Synth 8-4558] Trying to implement RAM 'ram_reg' in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+RAM "ram_reg" dissolved into registers
+INFO: [Synth 8-256] done synthesizing module 'DataMemory' (11#1) [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/DataMemory.v:23]
+INFO: [Synth 8-638] synthesizing module 'DataSelect_32_bit' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/DataSelect_32_bit.v:23]
+INFO: [Synth 8-256] done synthesizing module 'DataSelect_32_bit' (12#1) [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/DataSelect_32_bit.v:23]
+INFO: [Synth 8-638] synthesizing module 'PCAddImm' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/PCAddImm.v:23]
+INFO: [Synth 8-256] done synthesizing module 'PCAddImm' (13#1) [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/PCAddImm.v:23]
+INFO: [Synth 8-638] synthesizing module 'NextPCSelect' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/NextPCSelect.v:23]
+INFO: [Synth 8-256] done synthesizing module 'NextPCSelect' (14#1) [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/NextPCSelect.v:23]
+INFO: [Synth 8-256] done synthesizing module 'SingleCPU' (15#1) [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/SingleCPU.v:23]
+INFO: [Synth 8-638] synthesizing module 'clock_div' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/clock_div.v:23]
+INFO: [Synth 8-256] done synthesizing module 'clock_div' (16#1) [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/clock_div.v:23]
+INFO: [Synth 8-638] synthesizing module 'counter4' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/counter4.v:23]
+INFO: [Synth 8-256] done synthesizing module 'counter4' (17#1) [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/counter4.v:23]
+INFO: [Synth 8-638] synthesizing module 'Display_seg' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/Display_seg.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Display_seg' (18#1) [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/Display_seg.v:23]
+INFO: [Synth 8-638] synthesizing module 'SegLED' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/SegLED.v:23]
+INFO: [Synth 8-226] default block is never used [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/SegLED.v:28]
+INFO: [Synth 8-256] done synthesizing module 'SegLED' (19#1) [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/SegLED.v:23]
+WARNING: [Synth 8-567] referenced signal 'Addr' should be on the sensitivity list [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/Show.v:94]
+WARNING: [Synth 8-567] referenced signal 'NextPC' should be on the sensitivity list [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/Show.v:94]
+WARNING: [Synth 8-567] referenced signal 'ReadReg1' should be on the sensitivity list [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/Show.v:94]
+WARNING: [Synth 8-567] referenced signal 'ReadData1' should be on the sensitivity list [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/Show.v:94]
+WARNING: [Synth 8-567] referenced signal 'rt' should be on the sensitivity list [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/Show.v:94]
+WARNING: [Synth 8-567] referenced signal 'ReadData2' should be on the sensitivity list [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/Show.v:94]
+WARNING: [Synth 8-567] referenced signal 'ALUResult' should be on the sensitivity list [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/Show.v:94]
+WARNING: [Synth 8-567] referenced signal 'WriteData' should be on the sensitivity list [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/Show.v:94]
+INFO: [Synth 8-256] done synthesizing module 'Show' (20#1) [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/Show.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 265.313 ; gain = 139.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Optimization
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+Loading clock regions from D:/Vivado/Vivado/2014.2/data\parts/xilinx/artix7/artix7/xc7a35t/ClockRegion.xml
+Loading clock buffers from D:/Vivado/Vivado/2014.2/data\parts/xilinx/artix7/artix7/xc7a35t/ClockBuffers.xml
+Loading clock placement rules from D:/Vivado/Vivado/2014.2/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from D:/Vivado/Vivado/2014.2/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from D:/Vivado/Vivado/2014.2/data\parts/xilinx/artix7/artix7/xc7a35t/cpg236/Package.xml
+Loading io standards from D:/Vivado/Vivado/2014.2/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from D:/Vivado/Vivado/2014.2/data\parts/xilinx/artix7/ConfigModes.xml
+
+Processing XDC Constraints
+Parsing XDC File [F:/VivadoWork/Single_CPU/Single_CPU.srcs/constrs_1/new/Single_CPU.xdc]
+Finished Parsing XDC File [F:/VivadoWork/Single_CPU/Single_CPU.srcs/constrs_1/new/Single_CPU.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+---------------------------------------------------------------------------------
+Start RTL Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 464.066 ; gain = 337.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 464.066 ; gain = 337.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 464.066 ; gain = 337.832
+---------------------------------------------------------------------------------
+ROM "rom" won't be mapped to RAM because it is too sparse.
+ROM "rom" won't be mapped to RAM because it is too sparse.
+ROM "rom" won't be mapped to RAM because it is too sparse.
+ROM "rom" won't be mapped to RAM because it is too sparse.
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ALU.v:30]
+WARNING: [Synth 8-327] inferring latch for variable 'dataOut_reg' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ROM.v:33]
+WARNING: [Synth 8-327] inferring latch for variable 'PCWre_reg' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ControlUnit.v:57]
+WARNING: [Synth 8-327] inferring latch for variable 'InsMemRW_reg' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ControlUnit.v:62]
+WARNING: [Synth 8-327] inferring latch for variable 'RegDst_reg' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ControlUnit.v:65]
+WARNING: [Synth 8-327] inferring latch for variable 'RegWre_reg' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ControlUnit.v:61]
+WARNING: [Synth 8-327] inferring latch for variable 'ALUOp_reg' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ControlUnit.v:68]
+WARNING: [Synth 8-327] inferring latch for variable 'PCSrc_reg' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ControlUnit.v:67]
+WARNING: [Synth 8-327] inferring latch for variable 'ALUSrcA_reg' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ControlUnit.v:58]
+WARNING: [Synth 8-327] inferring latch for variable 'ALUSrcB_reg' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ControlUnit.v:59]
+WARNING: [Synth 8-327] inferring latch for variable 'DBDataSrc_reg' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ControlUnit.v:60]
+WARNING: [Synth 8-327] inferring latch for variable 'mWR_reg' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ControlUnit.v:64]
+WARNING: [Synth 8-327] inferring latch for variable 'ExtSel_reg' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/ControlUnit.v:66]
+WARNING: [Synth 8-327] inferring latch for variable 'NextPC_reg' [F:/VivadoWork/Single_CPU/Single_CPU.srcs/sources_1/new/NextPCSelect.v:33]
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 5     
+	   2 Input      6 Bit       Adders := 3     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---RAMs : 
+	              992 Bit         RAMs := 1     
++---Muxes : 
+	   8 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 3     
+	   2 Input     32 Bit        Muxes := 6     
+	  69 Input      8 Bit        Muxes := 4     
+	  16 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 183   
+	   2 Input      5 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+	  15 Input      3 Bit        Muxes := 1     
+	  15 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 431   
+	  15 Input      1 Bit        Muxes := 9     
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Show 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 2     
+Module DebKey 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module PC 
+Detailed RTL Component Info : 
+Module PCAddFour 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module ROM 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 3     
++---Muxes : 
+	  69 Input      8 Bit        Muxes := 4     
+Module ControlUnit 
+Detailed RTL Component Info : 
++---Muxes : 
+	  15 Input      3 Bit        Muxes := 1     
+	  15 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	  15 Input      1 Bit        Muxes := 9     
+Module DataSelect_5_bit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module RegisterFile 
+Detailed RTL Component Info : 
++---RAMs : 
+	              992 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module Extend 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module DataSelectForALU 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   8 Input     32 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module DataMemory 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 3     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 183   
+	   2 Input      1 Bit        Muxes := 427   
+Module DataSelect_32_bit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module PCAddImm 
+Detailed RTL Component Info : 
+Module NextPCSelect 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module SingleCPU 
+Detailed RTL Component Info : 
+Module clock_div 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module counter4 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module Display_seg 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 2     
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 2     
+Module SegLED 
+Detailed RTL Component Info : 
++---Muxes : 
+	  16 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Workers Ready, Starting Parallel Section  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 474.352 ; gain = 348.117
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3917] design Show has port dispcode[7] driven by constant 1
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 474.563 ; gain = 348.328
+---------------------------------------------------------------------------------
+Finished Parallel Reinfer  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 474.563 ; gain = 348.328
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: 
++------------+-------------------------------------------+--------------------+----------------------+---------------+-------------------+
+|Module Name | RTL Object                                | Inference Criteria | Size (depth X width) | Primitives    | Hierarchical Name | 
++------------+-------------------------------------------+--------------------+----------------------+---------------+-------------------+
+|Show        | nolabel_line83/myRegisterFile/regFile_reg | Implied            | 32 X 32              | RAM32M x 12   | Show/ram__1       | 
++------------+-------------------------------------------+--------------------+----------------------+---------------+-------------------+
+
+Note: The table shows RAMs generated at current stage. Some RAM generation could be reversed due to later optimizations. Mutiple instantiated RAMs are reported only once. "Hierarchical Name" reflects the hierarchical modules names of the RAM and only part of it is displayed.
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\nolabel_line83/myControlUnit/InsMemRW_reg )
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myPC/Addr_reg[31] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myPC/Addr_reg[30] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myPC/Addr_reg[29] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myPC/Addr_reg[28] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myPC/Addr_reg[27] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myPC/Addr_reg[26] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myPC/Addr_reg[25] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myPC/Addr_reg[24] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myPC/Addr_reg[23] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myPC/Addr_reg[22] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myPC/Addr_reg[21] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myPC/Addr_reg[20] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myPC/Addr_reg[19] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myPC/Addr_reg[18] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myPC/Addr_reg[17] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myPC/Addr_reg[16] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myPC/Addr_reg[15] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myPC/Addr_reg[14] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myPC/Addr_reg[13] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myPC/Addr_reg[12] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myPC/Addr_reg[11] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myPC/Addr_reg[10] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myPC/Addr_reg[9] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myPC/Addr_reg[8] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[31] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[30] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[29] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[28] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[27] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[26] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[25] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[24] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[23] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[22] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[21] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[20] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[19] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[18] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[17] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[16] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[15] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[14] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[13] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[12] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[11] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[10] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[9] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[8] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[7] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[6] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[5] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[4] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[3] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[2] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[1] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myROM/dataOut_reg[0] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myControlUnit/InsMemRW_reg ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myNextPCSelect/NextPC_reg[31] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myNextPCSelect/NextPC_reg[30] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myNextPCSelect/NextPC_reg[29] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myNextPCSelect/NextPC_reg[28] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myNextPCSelect/NextPC_reg[27] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myNextPCSelect/NextPC_reg[26] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myNextPCSelect/NextPC_reg[25] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myNextPCSelect/NextPC_reg[24] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myNextPCSelect/NextPC_reg[23] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myNextPCSelect/NextPC_reg[22] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myNextPCSelect/NextPC_reg[21] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myNextPCSelect/NextPC_reg[20] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myNextPCSelect/NextPC_reg[19] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myNextPCSelect/NextPC_reg[18] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myNextPCSelect/NextPC_reg[17] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myNextPCSelect/NextPC_reg[16] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myNextPCSelect/NextPC_reg[15] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myNextPCSelect/NextPC_reg[14] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myNextPCSelect/NextPC_reg[13] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myNextPCSelect/NextPC_reg[12] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myNextPCSelect/NextPC_reg[11] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myNextPCSelect/NextPC_reg[10] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myNextPCSelect/NextPC_reg[9] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myNextPCSelect/NextPC_reg[8] ) is unused and will be removed from module Show.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 01:13:38 . Memory (MB): peak = 566.563 ; gain = 440.328
+---------------------------------------------------------------------------------
+Finished Parallel Area Opt  : Time (s): cpu = 00:00:28 ; elapsed = 01:13:38 . Memory (MB): peak = 566.563 ; gain = 440.328
+Finished Parallel Section  : Time (s): cpu = 00:00:28 ; elapsed = 01:13:38 . Memory (MB): peak = 566.563 ; gain = 440.328
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:39 ; elapsed = 01:13:50 . Memory (MB): peak = 570.418 ; gain = 444.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:39 ; elapsed = 01:13:51 . Memory (MB): peak = 572.367 ; gain = 446.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myPC/Addr_reg[0] ) is unused and will be removed from module Show.
+WARNING: [Synth 8-3332] Sequential element (\nolabel_line83/myNextPCSelect/NextPC_reg[0] ) is unused and will be removed from module Show.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:57 ; elapsed = 01:14:16 . Memory (MB): peak = 827.727 ; gain = 701.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:58 ; elapsed = 01:14:17 . Memory (MB): peak = 828.391 ; gain = 702.156
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:58 ; elapsed = 01:14:17 . Memory (MB): peak = 828.391 ; gain = 702.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:59 ; elapsed = 01:14:17 . Memory (MB): peak = 828.391 ; gain = 702.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    38|
+|3     |INV    |     3|
+|4     |LUT1   |    81|
+|5     |LUT2   |   148|
+|6     |LUT3   |   189|
+|7     |LUT4   |   133|
+|8     |LUT5   |   303|
+|9     |LUT6   |  2913|
+|10    |MUXF7  |   669|
+|11    |RAM32M |    12|
+|12    |FDRE   |   577|
+|13    |LD     |    20|
+|14    |IBUF   |     5|
+|15    |OBUF   |    12|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------------+-------------+------+
+|      |Instance           |Module       |Cells |
++------+-------------------+-------------+------+
+|1     |top                |             |  5105|
+|2     |  counter          |counter4     |     4|
+|3     |  deb              |DebKey       |   112|
+|4     |  display          |Display_seg  |    12|
+|5     |  div              |clock_div    |    67|
+|6     |  nolabel_line83   |SingleCPU    |  4883|
+|7     |    myALU          |ALU          |    37|
+|8     |    myControlUnit  |ControlUnit  |  2283|
+|9     |    myDataMemory   |DataMemory   |  2148|
+|10    |    myNextPCSelect |NextPCSelect |    19|
+|11    |    myPC           |PC           |   317|
+|12    |    myRegisterFile |RegisterFile |    79|
+|13    |  seg              |SegLED       |     7|
++------+-------------------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:59 ; elapsed = 01:14:17 . Memory (MB): peak = 828.391 ; gain = 702.156
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 97 warnings.
+Synthesis Optimization Complete : Time (s): cpu = 00:00:59 ; elapsed = 01:14:18 . Memory (MB): peak = 828.391 ; gain = 702.156
+INFO: [Netlist 29-17] Analyzing 75 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 3 inverter(s) to 507 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 32 instances were transformed.
+  LD => LDCE: 20 instances
+  RAM32M => RAM32M (inverted pins: WCLK) (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+55 Infos, 108 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:00 ; elapsed = 01:14:19 . Memory (MB): peak = 828.391 ; gain = 653.926
+# write_checkpoint Show.dcp
+# report_utilization -file Show_utilization_synth.rpt -pb Show_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.302 . Memory (MB): peak = 828.391 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue May 29 12:40:39 2018...

@@ -1,0 +1,5 @@
+Running: xsim.dir/SingleCPU_SIM_behav/xsimk.exe -simmode gui -wdb SingleCPU_SIM_behav.wdb -simrunnum 0 -socket 54880
+Design successfully loaded
+Design Loading CPU Usage: 124 ms
+Simulation completed
+Simulation CPU Usage: 124 ms
