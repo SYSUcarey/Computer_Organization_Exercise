@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "MultiCPU_SIM_behav" --prj "F:/VivadoWork/MultiCPU/MultiCPU.sim/sim_1/behav/MultiCPU_SIM.prj" "xil_defaultlib.MultiCPU_SIM" "xil_defaultlib.glbl" 

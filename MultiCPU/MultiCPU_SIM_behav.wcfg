@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="MultiCPU_SIM_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="MultiCPU_SIM" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="37" />
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/rs" type="array">
+      <obj_property name="ElementShortName">rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/rt" type="array">
+      <obj_property name="ElementShortName">rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/nowPC" type="array">
+      <obj_property name="ElementShortName">nowPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nowPC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/nextPC" type="array">
+      <obj_property name="ElementShortName">nextPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nextPC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/ReadData1" type="array">
+      <obj_property name="ElementShortName">ReadData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/ReadData2" type="array">
+      <obj_property name="ElementShortName">ReadData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/ALUResult" type="array">
+      <obj_property name="ElementShortName">ALUResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResult[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/DB" type="array">
+      <obj_property name="ElementShortName">DB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DB[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myControlUnit/Opcode" type="array">
+      <obj_property name="ElementShortName">Opcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Opcode[5:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myControlUnit/myOutputFunction/State" type="array">
+      <obj_property name="ElementShortName">State[2:0]</obj_property>
+      <obj_property name="ObjectShortName">State[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myControlUnit/myNextState/Nextstate" type="array">
+      <obj_property name="ElementShortName">Nextstate[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Nextstate[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/inputIR" type="array">
+      <obj_property name="ElementShortName">inputIR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inputIR[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/WriteReg" type="array">
+      <obj_property name="ElementShortName">WriteReg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteReg[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/DataOut" type="array">
+      <obj_property name="ElementShortName">DataOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DataOut[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile" type="array">
+      <obj_property name="ElementShortName">regFile[1:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regFile[1:31][31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[1]" type="array">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[1][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[2][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[3]" type="array">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[3][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[4]" type="array">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[4][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[5]" type="array">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[5][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[6]" type="array">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[6][31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[7]" type="array">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[7][31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[8]" type="array">
+         <obj_property name="ElementShortName">[8][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[8][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[9]" type="array">
+         <obj_property name="ElementShortName">[9][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[9][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[10]" type="array">
+         <obj_property name="ElementShortName">[10][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[10][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[11]" type="array">
+         <obj_property name="ElementShortName">[11][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[11][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[12]" type="array">
+         <obj_property name="ElementShortName">[12][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[12][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[13]" type="array">
+         <obj_property name="ElementShortName">[13][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[13][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[14]" type="array">
+         <obj_property name="ElementShortName">[14][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[14][31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[15]" type="array">
+         <obj_property name="ElementShortName">[15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[15][31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[16]" type="array">
+         <obj_property name="ElementShortName">[16][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[16][31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[17]" type="array">
+         <obj_property name="ElementShortName">[17][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[17][31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[18]" type="array">
+         <obj_property name="ElementShortName">[18][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[18][31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[19]" type="array">
+         <obj_property name="ElementShortName">[19][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[19][31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[20]" type="array">
+         <obj_property name="ElementShortName">[20][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[20][31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[21]" type="array">
+         <obj_property name="ElementShortName">[21][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[21][31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[22]" type="array">
+         <obj_property name="ElementShortName">[22][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[22][31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[23]" type="array">
+         <obj_property name="ElementShortName">[23][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[23][31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[24]" type="array">
+         <obj_property name="ElementShortName">[24][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[24][31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[25]" type="array">
+         <obj_property name="ElementShortName">[25][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[25][31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[26]" type="array">
+         <obj_property name="ElementShortName">[26][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[26][31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[27]" type="array">
+         <obj_property name="ElementShortName">[27][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[27][31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[28]" type="array">
+         <obj_property name="ElementShortName">[28][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[28][31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[29]" type="array">
+         <obj_property name="ElementShortName">[29][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[29][31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[30]" type="array">
+         <obj_property name="ElementShortName">[30][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[30][31:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myRegisterFile/regFile[31]" type="array">
+         <obj_property name="ElementShortName">[31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[31][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myControlUnit/sign" type="logic">
+      <obj_property name="ElementShortName">sign</obj_property>
+      <obj_property name="ObjectShortName">sign</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myControlUnit/zero" type="logic">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myControlUnit/PCWre" type="logic">
+      <obj_property name="ElementShortName">PCWre</obj_property>
+      <obj_property name="ObjectShortName">PCWre</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myControlUnit/IRWre" type="logic">
+      <obj_property name="ElementShortName">IRWre</obj_property>
+      <obj_property name="ObjectShortName">IRWre</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myControlUnit/InsMemRW" type="logic">
+      <obj_property name="ElementShortName">InsMemRW</obj_property>
+      <obj_property name="ObjectShortName">InsMemRW</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myControlUnit/WrRegDSrc" type="logic">
+      <obj_property name="ElementShortName">WrRegDSrc</obj_property>
+      <obj_property name="ObjectShortName">WrRegDSrc</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myControlUnit/RegWre" type="logic">
+      <obj_property name="ElementShortName">RegWre</obj_property>
+      <obj_property name="ObjectShortName">RegWre</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myControlUnit/ALUSrcA" type="logic">
+      <obj_property name="ElementShortName">ALUSrcA</obj_property>
+      <obj_property name="ObjectShortName">ALUSrcA</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myControlUnit/ALUSrcB" type="logic">
+      <obj_property name="ElementShortName">ALUSrcB</obj_property>
+      <obj_property name="ObjectShortName">ALUSrcB</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myControlUnit/RD" type="logic">
+      <obj_property name="ElementShortName">RD</obj_property>
+      <obj_property name="ObjectShortName">RD</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myControlUnit/WR" type="logic">
+      <obj_property name="ElementShortName">WR</obj_property>
+      <obj_property name="ObjectShortName">WR</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myControlUnit/DBDataSrc" type="logic">
+      <obj_property name="ElementShortName">DBDataSrc</obj_property>
+      <obj_property name="ObjectShortName">DBDataSrc</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myControlUnit/ExtSel" type="logic">
+      <obj_property name="ElementShortName">ExtSel</obj_property>
+      <obj_property name="ObjectShortName">ExtSel</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myControlUnit/PCSrc" type="array">
+      <obj_property name="ElementShortName">PCSrc[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PCSrc[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myControlUnit/RegDst" type="array">
+      <obj_property name="ElementShortName">RegDst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RegDst[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myControlUnit/ALUOp" type="array">
+      <obj_property name="ElementShortName">ALUOp[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myControlUnit/inputState" type="array">
+      <obj_property name="ElementShortName">inputState[2:0]</obj_property>
+      <obj_property name="ObjectShortName">inputState[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MultiCPU_SIM/test/myControlUnit/outputState" type="array">
+      <obj_property name="ElementShortName">outputState[2:0]</obj_property>
+      <obj_property name="ObjectShortName">outputState[2:0]</obj_property>
+   </wvobject>
+</wave_config>
